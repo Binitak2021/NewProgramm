@@ -1,0 +1,11 @@
+what is method overloading ?
+Method overloading is nothing but static polymorphism where two or more
+ methods have same method name but different number and/or type of arguments.
+Here method call is decided during compile time.
+ for example:
+suppose in a class there is a method called add() of return type int that accepts 
+two int variables as parameters and returns there sum. Suppose in the same class 
+there is another add method of return type int that accepts three integer variables
+as parameters and returns there sum.Here the two methods are an example of method 
+overloading because both the methods have same name, add, but one of them accepts two 
+parameters while the other accepts three.
