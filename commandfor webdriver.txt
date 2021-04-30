@@ -1,0 +1,3 @@
+what are the command to open the browser?
+ans: System.setProperty("WebDriver.chrome.driver","path of the chrom driver");
+      WebDriver driver=new ChromeDriver();
