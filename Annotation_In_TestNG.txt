@@ -1,0 +1,12 @@
+what are the annotations in testNG?
+
+The different types of annotations in TestNg are
+@BeforeSuit
+@BeforeTest
+@BeforeClass
+@BeforeMethod
+@BeforeTest
+@AfterMethod
+@AfterClass
+@AfterTest
+@Aftersuit
