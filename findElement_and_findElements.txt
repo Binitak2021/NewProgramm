@@ -1,0 +1,11 @@
+What is the difference between findElement and findElements?
+
+findElement() method is used to identify the element in the DOM. It returns the first webelement which is found on the webpage
+with the given locator. If the webelement is not found on the webpage it throughs NOSUCHEXCEPTION.
+
+syntax: WebElement ele=driver.findElement(By.xpath(""));
+
+   Where as findElements() method returns a list of webelements on the webpage which has same locators .
+if the weblements are not found it returns an empty list.
+
+syntax:List<WebElement> listOfElements=driver.findElements(By.xpath("")); 
