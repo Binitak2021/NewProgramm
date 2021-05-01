@@ -1,0 +1,11 @@
+what is a feature file in cucumber?
+
+feature file in cucumber is a file where all the test scenarios are written.It consists of scenarios or scenario outline 
+The scenarios are written in gherkin language using Given ,When , Then, Feature, Scenario keywords.
+Where Given specifies the precondition
+      When  specifies the actions to be performed
+      Then  specifies the post condition
+ scenario outline is accompanied by Examples keyword , under Examples keyword it consist of set of data where the given
+scenario is executed for multiple sets of data and scenario outline is run multiple no. of times.We use
+pipe symbol for writing the data under Examples keyword.
+The extension of the feature file is .feature. They are stroed in src/test/resources.
