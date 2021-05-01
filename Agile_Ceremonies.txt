@@ -1,0 +1,23 @@
+what are agile ceremonies?
+
+In Agile methodology of project development we have differenet ceremonies which are a part of project development.
+They are:
+Sprint planning meeting:In this meeting the project owner,the scrum master and the developers are part of this
+meeting,Here the P.O. prioritizes the user stories which are nothing but the smallest unit of requirements, which
+is taken from the product backlog and puts them into sprint backlog.After the user stories are prioritized, all the team 
+members estimates the effort needed to complete the user stroy in the form of story pts and using planning pocker 
+technique we give the story pts in fibonacci series no and finally the team commits the chunk of work to complete
+in given period of time.
+
+Daily Standup meeting- Once the user stories are decided , we have daily standup meeting which are attended by scrum master
+developers and BA .it usually happens for 15 mins where every team memeber talks what task have we done yesterday,what are
+we going to do today and are there any impediment which we are facing, here we use kanban board. Also this meeting helps 
+everyone to make aware what progress we are having on daily basis, and who is doing what in the project.
+
+Sprint review meeting-This meeting occurs when we have completed the user stroies in the given sprint and its time to showcase 
+the work , Here the meeting is attended by BA,Scrum Master, PO, Developers, and also the stakeholders. This meeting gives the
+opportunity to get direct feedback from the client as every body in the team collectively showcases the work.
+
+Retrospective meeting-This meeting is attended by the P.O.,Scrum Master,BA, Developers. This is the most important meeting as it helps us 
+to improve our process. We will discuss what went well and how well we have performed and if there were any issues what was the reason, 
+How can we avoid those issues in the upcoming sprints.This is the last ceremony of the sprint.
