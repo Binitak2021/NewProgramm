@@ -1,0 +1,20 @@
+
+what is defect life cycle?
+Defect life cycle is the lifecycle of the bug from the point it is logged in to the 
+point it is closed.
+It undergoes different stages as follows
+1.New- This is the stage when the tester finds the bug and loggs the bug to the defect
+ tracking tool.
+2.Assiged- When the bug is New it will be looked into by test lead and if approved by
+ the test lead will be assigned to the development 
+team and the status will be chanded to Assigned.
+3.Open-When the bug is assigned to the developer and he starts annalyzing it ,that it
+ is the time he changes the status of the bug to open.
+4.Fixed-Once the developer has made necessary code changes and fixed the developer 
+changes the bug status to fixed and the bug is passed to the testing team. 
+5.Retesting-The bug comes back to the tester for retesting in order to ensure that the 
+bug has been fixed.This is the time the tester changes the bug status to REtesting
+6.Reopen- In case if the bug still persist after the developer has fixed the bug , then
+ the status of the bug is Reopen, and the above steps will repeat once again.But if the 
+bug is no longer present then the tester assignes the status as verified.
+7.Closed-Once the bug is verified the tester closes the bug and changes its status to Closed.
