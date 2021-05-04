@@ -1,0 +1,11 @@
+How continuous Integration is achieved in jenkins?
+
+Ans: In our company we have used jenkins as contiuous integration tool.
+In jenkins code is continuously tested after commit to ensure there are no bugs,
+Here the developers will commit their code and once the code is commited a build
+is created on jenkins, and once the build is created the developers build is 
+executed first and once the developer build is executed successfully, then testers 
+build is executed , so the test build is launched on the fresh code which has got 
+the latest code , and once the test automation is complete we get the report to find if
+the bugs are present. This is how continuous integration happens in our company and 
+achieved in this form.
