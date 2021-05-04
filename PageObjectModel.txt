@@ -1,0 +1,17 @@
+What is page object model ?
+
+Page Object Model is a design pattern which we follow while developing the framework.
+In this type of framework for every page of the web application we create a page class where 
+using the different locators we find webelements of that particular page ,for this we use 
+@FindBy annotation and we also define the methods related to those webelements. So every page acts
+as object repository for that particular page .
+We also have a base class which is created in another package where we define all the global properties such as setting up the system properties 
+of the browser, maximizing the browser, pageload timeout, teardown methods etc. and this base class is inherited by
+by all the page class apart from that we also create a test class in different package related to each page .To test we 
+integrate testNG.In the test class we use PageFactory class to initialize webelements using initElements
+using .class extension .
+For eg. 
+LoginPage loginpage=PageFactory.initElements(driver,LoginPage.class)
+the above statement returns the object of the particular page. we also have pom.xml file where we define all the dependency
+required for the project for eg. ApachePoi, testNG etc.
+
