@@ -1,0 +1,12 @@
+what are exceptions, Mention 5 exceptions you have faced?
+
+Ans:An exception is an error that happens at the time of execution of a program. However,
+while running a program, programming languages generates an exception that should be handled 
+to avoid your program to crash.The exception indicates that, although the event can 
+occur, this type of event happens infrequently. 
+The different exception faced during writing Automation test script are
+1.NuSuchElementException
+2.NoSuchWindowException
+3.TimeOutExeption
+4.NotFoundException
+5.StaleElementReferenceException 
