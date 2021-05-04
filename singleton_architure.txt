@@ -1,0 +1,6 @@
+what is singleton architure?
+
+The singleton Architecture is a design pattern that restricts the instantiation of a class to one object. 
+We create singleton class since teh requirement of the different classes are same then we create a 
+singleton class which creates only on object and this object is shared by different classes 
+For eg. we can crete an object of webdriver in singleton class and webdriver object is shared by different classes. 
